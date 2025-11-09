@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://Lininin.pythonanywhere.com';
 let allContacts = [];
 
 // 页面加载完成后执行
@@ -371,4 +371,5 @@ style.textContent = `
         }
     }
 `;
+
 document.head.appendChild(style);
